@@ -1,0 +1,10 @@
+#Whether you are just learning to create models in Excel, or having been doing so for years sometimes it is helpful to have easy to find friendly reminders on how to write your code. For when you are searching for that one snippet you did awhile back.
+
+#This is where I will store my reminders and by reminders I mean step by step instructions for how to complete simple tasks.
+
+#Some of my reminders will have excuteable functions as examples. The majority of the time this code was written after viewing multiple how to classes online and changed to be as generic as possible in order to allow me to apply variations to future projects. 
+
+#For example a nested if/or function to calculate a # within a given range.
+# =if(A1<0, 0, or(A1>1000, 1000, A1))
+
+#If for any reason I copied an example in full or in part I acknowlege that at the top of the page.
