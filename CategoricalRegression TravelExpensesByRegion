@@ -1,0 +1,15 @@
+y = b0 +b1x1 + b2x2 + b3x3... 
+
+#**Create Dummy Variables**
+#Always create 1 less dummy variable than the number of categories to make sure that one category is represented by 0 
+#4 Categories 
+#West 
+#Midwest 
+#Northeast
+#Southeast 
+
+TravelExpenses = B0 + (B1*AvgIncome) + (B2*Pcttravel) + (B3*midwest) +(B4Southeast) +(B5west) 
+#each of the dummy regional variables takes on either 0 or 1 
+#if the region was midwest = 1, and southeast = 0, and west=0 
+
+#
