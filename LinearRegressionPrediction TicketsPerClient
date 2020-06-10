@@ -1,0 +1,20 @@
+In Excel we are given two columns 
+Column A: Number of Employees by Client 
+Column B: Average Number of tickets by Client 
+
+#**Create the Model**
+C3= Slope= slope(B:B,A:A) 
+C4= Intercept= intercept(B:B, A:A)
+Y = (C3*X)+C4
+
+#**Verify the Result**
+C6= Correlation Coefficient = Correl(B:B, A:A) 
+#closer to +-1 the stronger the correlation of the data 
+
+Coefficient of Determination = r^2
+C7 = RSQ(B:B, A:A) 
+#the % of variance in observations explained by the model
+#does the data fit our line
+#R^2 > .9 overfit? 
+#R^2 > .7 is good, most of variance is explained by model 
+#R^2 < .3 is not useful 
