@@ -1,0 +1,24 @@
+Y = B0 _b1x1 + b2x2 + b3x3... 
+#Need Analsis ToolPak added in Excel
+
+In Excel we are given 3 columns 
+Column A: Average Number of tickets by Client
+Column B: Number of Employees 
+Column C: Value of the Contract
+
+#**Create the Model** 
+#Data Menu -- Select Data Analysis -- Hit Regression 
+#input Y range should be the range of your target variable (A:A) 
+#input X Range should be the range of data of predicitive variables (BC:BC) 
+
+#**Verify the Result**
+Coefficients are listed in the analysis of the data 
+#closer to +-1 the stronger the correlation of the data 
+
+Coefficient of Determination = r^2, are listed in the analysis of the data 
+#used the adjusted R^2 number for multiple linear regressions 
+#the % of variance in observations explained by the model
+#does the data fit our line
+#R^2 > .9 overfit? 
+#R^2 > .7 is good, most of variance is explained by model 
+#R^2 < .3 is not useful 
